@@ -1,0 +1,240 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+p{
+    color: rgb(9, 246, 21);
+}
+body{
+    background-color: rgb(0, 76, 138);
+    box-sizing: border-box;
+}
+
+h1{
+    margin: auto; 
+  }
+  
+.cabecalho{
+    width: 100%;
+    background-color: rgb(90, 90, 90);
+    color:white;
+    text-align: center;
+  }
+  .logo{
+    padding-left: 0.5em;
+    text-align: center;
+    font-size: 3em;
+    width: 5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
+    font-family: 'Bree Serif';
+}
+
+.logo span{
+    font-style: bold;
+    color: rgb(255, 153, 0);
+}
+
+.amigao {color: rgba(255, 255, 255, .75);
+    font-family:'Special Elite', monospace;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+  white-space: nowrap; overflow: hidden;}
+  
+  .typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+     typing 4s steps(40) 1s normal both; 
+  }
+  
+  @keyframes blinkCursor {
+  from {border-right-color: rgba(255, 255, 255, .75);}
+  
+  to {border-right-color:transparent;}
+  }
+  
+  @keyframes typing
+  {
+  from{width: 0;}
+  to{width: 15em;}
+  }
+
+  .line 
+{ display: flex; align-items: center;
+  justify-content: center;height: 11vh;  background:rgba(25, 25, 25);}
+
+}
+
+nav{
+    
+    background-color: rgb(36, 40, 51);
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+ul li{
+    margin-left:2.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family:'Poppins' ;
+}
+ul li a{color: #9d9d9d;
+}
+ul li:hover{
+    background-color: rgb(141, 141, 141);
+}
+li {text-decoration: none;
+    list-style-type: none;
+
+}
+li a {text-decoration: none;
+        list-style-type: none;
+
+}
+
+.menu {
+    text-transform: uppercase;
+    margin-top:  1rem;
+    margin-bottom: 1rem;
+}
+
+.x{
+    margin-bottom:  1rem;
+}
+.email{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.adt{ margin-top: 1rem ;
+    margin-bottom: 2rem;
+
+}
+
+.fado{ margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.Sobre{
+    margin: 1rem 0 1rem 0;
+}
+
+.txt2 {margin-top: 1rem;
+
+}
+
+.sjv{margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.titulo{
+    color: white;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+img {width: 20%;      
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%
+}
+
+.cãozinho{
+        padding: 2em;
+    }
+
+ .tabelac{text-align: center;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left:auto;
+   margin-right:auto;
+   transform: translate(-5%, 5%)
+                
+    }
+
+    .td{ display: inline-block;
+        margin:auto;
+        margin-left:auto;
+       margin-right:auto;}
+
+.Boo{width: 250px;
+    padding: 2em;
+    border-radius: 2em;
+    
+}
+.Bidu{width: 250px;
+    padding: 2em;
+border-radius: 2em;
+}
+
+.Blue{width: 250px;
+    padding: 2em;
+border-radius: 2em;
+}
+
+.Dolly{width: 250px;
+    padding: 2em;
+border-radius: 2em;
+}
+
+.Tutti{width: 250px;
+    padding: 2em;
+border-radius: 2em;
+}
+
+.vjm{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+}
+
+
+.mf{background-color: rgb(218, 119, 28);}
+
+ul li span{
+position: absolute;
+width: 63px;
+height: 26px;
+left: 26px;
+top: 2024px;
+}
+
+.facebook{
+    width: 20px;
+    height: 20px;
+    left: 26px;
+    top: 2024px;
+
+}
+.instagran{width: 20px;
+    height: 20px;
+    left: 26px;
+    top: 2024px;
+}
+.m{width: 20px;
+    height: 20px;
+    left: 26px;
+    top: 2024px;
+
+}
+.nf{background-color: rgb(90, 90, 90);}
+
+
+
+
+
